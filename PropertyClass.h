@@ -13,7 +13,7 @@ private:
     std::function<void(T)> _set;
 public:
 
-    explicit Property(std::function<T()> get,std::function<void(T)> set=[](T){},T _value=0){
+    explicit Property(std::function<T()> get,std::function<void(T)> set=[](T){},T _value=T{}){
         this->_get = get;
         this->_set = set;
         this->_set(_value);
