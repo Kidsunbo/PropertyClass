@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/Property/PropertyClass.h
+functional
+-
+
+C:/Users/Administrator/Desktop/Property/main.cpp
+PropertyClass.h
+C:/Users/Administrator/Desktop/Property/PropertyClass.h
+iostream
+-
+
