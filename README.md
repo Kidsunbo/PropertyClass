@@ -2,7 +2,7 @@
 
 this is just a test and a try for property in C++.
 
-Their is no `get` and `set` function with member variable in C++. So it's a try to wrapper the member variable to provide similar function.
+There are no `get` and `set` functions with the fields in C++. So this project is a try to wrapper the member variable to provide the similar function.
 
 
 
